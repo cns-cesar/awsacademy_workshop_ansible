@@ -10,8 +10,8 @@ haproxy_timeout_server: 30s
 haproxy_firewall_configure: true
 haproxy_backend_servers:
   - name: web01
-    address: "{{ hostvars['web01']['ansible_host'] }}"
+    address: 172.26.209.133
     port: 80
   - name: web02
-    address: "{{ hostvars['web02']['ansible_host'] }}"
+    address: 172.26.209.138
     port: 80
