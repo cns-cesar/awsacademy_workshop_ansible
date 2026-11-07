@@ -1,4 +1,4 @@
 ---
 haproxy_port: 80
-haproxy_backend_group: webservers
+haproxy_backend_group: cassio_g_ws
 haproxy_backend_port: 80
