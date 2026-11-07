@@ -1,6 +1,6 @@
 ---
 - name: "Provisionar HAProxy - Workshop Red Hat Academy"
-  hosts: haproxy
+  hosts: cassio_g_lb
   become: true
   gather_facts: true
   roles:
