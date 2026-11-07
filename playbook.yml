@@ -1,6 +1,6 @@
 ---
 - name: "Provisionar Servidor Web - Workshop Red Hat Academy"
-  hosts: webservers
+  hosts: cassio_g_ws
   become: true
   gather_facts: true
 
