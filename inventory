@@ -1,10 +1,10 @@
 # IPs de exemplo para o laboratório: ajuste conforme o ambiente.
 [haproxy]
-lb01 ansible_host=192.168.0.10
+lb01 ansible_host=172.26.209.140
 
 [webservers]
-web01 ansible_host=192.168.0.11
-web02 ansible_host=192.168.0.12
+web01 ansible_host=172.26.209.133
+web02 ansible_host=172.26.209.138
 
 [all:vars]
-ansible_user=student
+ansible_user=aluno1
